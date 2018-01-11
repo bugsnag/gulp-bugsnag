@@ -1,0 +1,21 @@
+{
+  "name": "gulp-bugsnag",
+  "version": "0.0.0",
+  "description": "Gulp plugins for common Bugsnag actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test/build-reporter.test.js"
+  },
+  "author": "Bugsnag Inc.",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "standard": "^10.0.3",
+    "tape": "^4.8.0"
+  },
+  "dependencies": {
+    "bugsnag-build-reporter": "^1.0.0-3",
+    "through2": "^2.0.3"
+  }
+}
