@@ -1,6 +1,6 @@
 const gulp = require('gulp')
 const concat = require('gulp-concat')
-const { reportBuild } = require('../../../')
+const reportBuild = require('../../../').reportBuild
 
 gulp.task('build', () => {
   gulp.src('src/*.js')

@@ -1,3 +1,5 @@
+'use strict'
+
 const test = require('tape')
 const exec = require('child_process').exec
 const http = require('http')
