@@ -2,9 +2,18 @@
   "name": "gulp-bugsnag",
   "version": "0.0.0",
   "description": "Gulp plugins for common Bugsnag actions",
+  "keywords": [
+    "bugsnag",
+    "gulp",
+    "gulpplugin"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "standard && tape test/build-reporter.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bugsnag/gulp-bugsnag"
   },
   "author": "Bugsnag Inc.",
   "license": "MIT",
