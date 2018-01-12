@@ -11,14 +11,13 @@ Gulp plugins for common Bugsnag actions.
 npm install --save-dev gulp-bugsnag
 ```
 
-
 ## Plugins
 
 ```js
 const { reportBuild } = require('gulp-bugsnag')
 ```
 
-## `reportBuild(build, opts): stream`
+### `reportBuild(build, opts): stream`
 
 Reports your application's build to Bugsnag. It can auto detect source control from `.git`, `.hg` and `package.json`.
 This plugin should go at the end of the task where you build your application – however it operates as a passthrough stream, so you can place things downstream of it if you like.
@@ -41,7 +40,7 @@ Once it has received the last item in the stream, the plugin will report the bui
   - `path: string` the path to search for source control info, defaults to `process.cwd()`
   - `endpoint: string` post the build payload to a URL other than the default (`https://build.bugsnag.com`)
 
-### Usage
+#### Usage
 
 ```js
 /* gulpfile.js */
