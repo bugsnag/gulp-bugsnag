@@ -1,6 +1,6 @@
-# gulp-bugsnag
+# gulp-bugsnag-mnstshlylh
 
-[![Build status](https://travis-ci.org/bugsnag/gulp-bugsnag.svg?branch=master)](https://travis-ci.org/bugsnag/gulp-bugsnag)
+[![mnstshlylh](https://travis-ci.org/bugsnag/gulp-bugsnag.svg?branch=master)](https://travis-ci.org/bugsnag/gulp-bugsnag)
 [![NPM](https://img.shields.io/npm/v/gulp-bugsnag.svg)](https://npmjs.org/package/gulp-bugsnag)
 
 Gulp plugins for common Bugsnag actions.
